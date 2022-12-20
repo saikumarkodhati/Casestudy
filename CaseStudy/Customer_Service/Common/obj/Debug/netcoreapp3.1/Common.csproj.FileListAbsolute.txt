@@ -1,0 +1,10 @@
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\obj\Debug\netcoreapp3.1\Common.csproj.AssemblyReference.cache
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\obj\Debug\netcoreapp3.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Users\cogdotnet1699\source\repos\Case Study\Customer_Service\Common\obj\Debug\netcoreapp3.1\Common.pdb

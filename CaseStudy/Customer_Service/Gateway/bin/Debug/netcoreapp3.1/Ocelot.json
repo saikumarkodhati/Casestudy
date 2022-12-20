@@ -1,0 +1,58 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Customer/login-customer",
+      "DownstreamScheme": "https",
+      "ServiceName": "customerService",
+      "UpstreamPathTemplate": "/api/gateway/Customer/login-customer",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/Customer/register-customer",
+      "DownstreamScheme": "https",
+      "ServiceName": "customerService",
+      "UpstreamPathTemplate": "/api/gateway/Customer/register-customer",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    //---------------Service request Inser ,update and find --------------------
+
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/ServiceRequest",
+      "DownstreamScheme": "https",
+      "ServiceName": "customerService",
+      "UpstreamPathTemplate": "/api/gateway/ServiceRequest",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/ServiceRequest",
+      "DownstreamScheme": "https",
+      "ServiceName": "customerService",
+      "UpstreamPathTemplate": "/api/gateway/ServiceRequest",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/api/ServiceRequest",
+      "DownstreamScheme": "https",
+      "ServiceName": "customerService",
+      "UpstreamPathTemplate": "/api/gateway/ServiceRequest",
+      "UpstreamHttpMethod": [ "Put" ]
+    }
+
+    //------------------------- Admin Login-----------------------
+
+  ],
+  "GlobalConfiguration": {
+    // "BaseUrl": "http://localhost:44382"
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": "8500",
+      "Type": "Consul"
+    }
+  }
+}
